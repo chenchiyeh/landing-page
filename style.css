@@ -3,6 +3,19 @@ body{
   font-family: "Roboto";
 }
 
+h1{
+  padding:0px;
+  margin:0px;
+}
+
+
+p{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
 .block-1{
   background-color: #1F2937;
   display: flex;
@@ -11,10 +24,6 @@ body{
   padding-bottom: 100px;
 }
 
-p{
-  margin: 0px;
-  padding: 0px;
-}
 
 .header{
   color: white;
@@ -29,6 +38,8 @@ p{
   display: flex;
   justify-content: space-around;
   gap:10px;
+  color: #E5E7EB;
+  font-size: 18px;
 }
 
 .header-left{
@@ -45,10 +56,9 @@ p{
   padding-left: 100px;
 }
 
-h1{
-  padding:0px;
-  margin:0px;
-}
+
+
+/* subheader left */
 .subheader-left{
   flex: 1 1 0;
 }
@@ -62,4 +72,12 @@ h1{
 .subheader-left p{
   font-size: 18px;
   color: #E5E7EB;
+}
+
+/* subheader right */
+.subheader-right{
+
+  flex: 1 1 0;
+  color: white;
+  width: auto;
 }
