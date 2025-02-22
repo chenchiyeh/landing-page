@@ -157,10 +157,59 @@ body{
   color: #1f2937ca;
 }
 
+.quote{
+  font-size: 36px;
+  font-style: italic;
+}
+
 .author{
   display: flex;
   color: rgba(0, 0, 0, 0.921);
-  align-content: end;
-  justify-content: end;
   font-weight: bold;
+  flex-direction: row;
+  align-items: end;
+}
+
+.footer{
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.blue-block{
+  width: 700px;
+  height: 100px;
+  background-color:#3882F6;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 1%;
+
+}
+
+.call{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 20px;
+}
+
+.call .action{
+  font-weight: bold;
+}
+
+.blue-block button{
+  background-color: #3882F6;
+  font-weight: bold;
+  height: 30px;
+  color: white;
+  width: 100px;
+  border-radius: 8%;
+  border-color: #ffffff;
+
 }
